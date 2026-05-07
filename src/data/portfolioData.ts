@@ -1,3 +1,4 @@
+// Add this missing part back!
 export type FileItem = {
     id: string;
     title: string;
@@ -13,25 +14,27 @@ export const MY_DATA: FileItem[] = [
         description: "My top-ranking hackathon projects, showcasing rapid prototyping and AI development.",
         children: [
 
-            // 1. INGENIUM 6.0 (Already Done)
+            // 1. INGENIUM 6.0
             {
                 id: "h1", title: "Ingenium 6.0", type: "folder", description: "Secured Top 20 rank at Ahmedabad University.",
                 children: [
                     {
                         id: "h1-p", title: "Photo", type: "folder",
                         children: [
-                            { id: "h1-p1", title: "Image1.png", type: "file", url: "/Ingenium%206.0/Image1.png" },
-                            { id: "h1-p2", title: "Image2.png", type: "file", url: "/Ingenium%206.0/Image2.png" },
-                            { id: "h1-p3", title: "Image3.png", type: "file", url: "/Ingenium%206.0/Image3.png" }
+                            // Notice the lowercase "image1.png" in the url!
+                            { id: "h1-p1", title: "Image 1", type: "file", url: "/Ingenium%206.0/image1.png" },
+                            { id: "h1-p2", title: "Image 2", type: "file", url: "/Ingenium%206.0/image2.png" },
+                            { id: "h1-p3", title: "Image 3", type: "file", url: "/Ingenium%206.0/image3.png" }
                         ]
                     },
                     {
                         id: "h1-v", title: "Video", type: "folder",
                         children: [
+                            // Ensure this matches your actual video file exactly
                             { id: "h1-v1", title: "Video-1.mp4", type: "video", url: "/Ingenium%206.0/Video-1.mp4" }
                         ]
                     },
-                    { id: "h1-d", title: "Project Demo Video", type: "video", url: "/Ingenium%206.0/Project%20Demo%20Video.mp4" },
+                    { id: "h1-d", title: "Project Demo Video", type: "video", url: "https://youtube.com/your-video-link-here" },
                     { id: "h1-g", title: "GitHub Repo Link", type: "link", url: "https://github.com/your-username/your-repo-name" }
                 ]
             },
@@ -43,18 +46,19 @@ export const MY_DATA: FileItem[] = [
                     {
                         id: "h3-p", title: "Photo", type: "folder",
                         children: [
-                            { id: "h3-p1", title: "Image1.png", type: "file", url: "/Ingenium%207.0/Image1.png" },
-                            { id: "h3-p2", title: "Image2.png", type: "file", url: "/Ingenium%207.0/Image2.png" },
-                            { id: "h3-p3", title: "Image3.png", type: "file", url: "/Ingenium%207.0/Image3.png" }
+                            // Notice the lowercase "ingenium 7.0" and "image1.png"
+                            { id: "h3-p1", title: "Image 1", type: "file", url: "/ingenium%207.0/image1.png" },
+                            { id: "h3-p2", title: "Image 2", type: "file", url: "/ingenium%207.0/image2.png" },
+                            { id: "h3-p3", title: "Image 3", type: "file", url: "/ingenium%207.0/image3.png" }
                         ]
                     },
                     {
                         id: "h3-v", title: "Video", type: "folder",
                         children: [
-                            { id: "h3-v1", title: "Video1.mp4", type: "video", url: "/Ingenium%207.0/Video1.mp4" }
+                            { id: "h3-v1", title: "Video1.mp4", type: "video", url: "/ingenium%207.0/Video1.mp4" }
                         ]
                     },
-                    { id: "h3-d", title: "Project Demo Video", type: "video", url: "/Ingenium%207.0/Project%20Demo%20Video.mp4" },
+                    { id: "h3-d", title: "Project Demo Video", type: "video", url: "https://youtube.com/your-video-link-here" },
                     { id: "h3-g", title: "GitHub Repo Link", type: "link", url: "https://github.com/your-username/your-repo-name" }
                 ]
             },
@@ -66,9 +70,9 @@ export const MY_DATA: FileItem[] = [
                     {
                         id: "h2-p", title: "Photo", type: "folder",
                         children: [
-                            { id: "h2-p1", title: "Image1.png", type: "file", url: "/LJ%20Hackathon/Image1.png" },
-                            { id: "h2-p2", title: "Image2.png", type: "file", url: "/LJ%20Hackathon/Image2.png" },
-                            { id: "h2-p3", title: "Image3.png", type: "file", url: "/LJ%20Hackathon/Image3.png" }
+                            { id: "h2-p1", title: "Image 1", type: "file", url: "/LJ%20Hackathon/image1.png" },
+                            { id: "h2-p2", title: "Image 2", type: "file", url: "/LJ%20Hackathon/image2.png" },
+                            { id: "h2-p3", title: "Image 3", type: "file", url: "/LJ%20Hackathon/image3.png" }
                         ]
                     },
                     {
@@ -77,7 +81,7 @@ export const MY_DATA: FileItem[] = [
                             { id: "h2-v1", title: "Video1.mp4", type: "video", url: "/LJ%20Hackathon/Video1.mp4" }
                         ]
                     },
-                    { id: "h2-d", title: "Project Demo Video", type: "video", url: "/LJ%20Hackathon/Project%20Demo%20Video.mp4" },
+                    { id: "h2-d", title: "Project Demo Video", type: "video", url: "https://youtube.com/your-video-link-here" },
                     { id: "h2-g", title: "GitHub Repo Link", type: "link", url: "https://github.com/your-username/your-repo-name" }
                 ]
             },
@@ -89,9 +93,9 @@ export const MY_DATA: FileItem[] = [
                     {
                         id: "h4-p", title: "Photo", type: "folder",
                         children: [
-                            { id: "h4-p1", title: "Image1.png", type: "file", url: "/GLS%20Hackathon/Image1.png" },
-                            { id: "h4-p2", title: "Image2.png", type: "file", url: "/GLS%20Hackathon/Image2.png" },
-                            { id: "h4-p3", title: "Image3.png", type: "file", url: "/GLS%20Hackathon/Image3.png" }
+                            { id: "h4-p1", title: "Image 1", type: "file", url: "/GLS%20Hackathon/image1.png" },
+                            { id: "h4-p2", title: "Image 2", type: "file", url: "/GLS%20Hackathon/image2.png" },
+                            { id: "h4-p3", title: "Image 3", type: "file", url: "/GLS%20Hackathon/image3.png" }
                         ]
                     },
                     {
@@ -103,7 +107,7 @@ export const MY_DATA: FileItem[] = [
                             { id: "h4-v4", title: "Video4.mp4", type: "video", url: "/GLS%20Hackathon/Video4.mp4" }
                         ]
                     },
-                    { id: "h4-d", title: "Project Demo Video", type: "video", url: "/GLS%20Hackathon/Project%20Demo%20Video.mp4" },
+                    { id: "h4-d", title: "Project Demo Video", type: "video", url: "https://youtube.com/your-video-link-here" },
                     { id: "h4-g", title: "GitHub Repo Link", type: "link", url: "https://github.com/your-username/your-repo-name" }
                 ]
             }
