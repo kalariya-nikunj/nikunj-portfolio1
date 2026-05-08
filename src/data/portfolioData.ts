@@ -1,4 +1,3 @@
-// Add this missing part back!
 export type FileItem = {
     id: string;
     title: string;
@@ -13,15 +12,12 @@ export const MY_DATA: FileItem[] = [
         id: "hackathons", title: "Hackathons", type: "folder",
         description: "My top-ranking hackathon projects, showcasing rapid prototyping and AI development.",
         children: [
-
-            // 1. INGENIUM 6.0
             {
                 id: "h1", title: "Ingenium 6.0", type: "folder", description: "Secured Top 20 rank at Ahmedabad University.",
                 children: [
                     {
                         id: "h1-p", title: "Photo", type: "folder",
                         children: [
-                            // Notice the lowercase "image1.png" in the url!
                             { id: "h1-p1", title: "Image 1", type: "file", url: "/Ingenium%206.0/image1.png" },
                             { id: "h1-p2", title: "Image 2", type: "file", url: "/Ingenium%206.0/image2.png" },
                             { id: "h1-p3", title: "Image 3", type: "file", url: "/Ingenium%206.0/image3.png" }
@@ -30,7 +26,6 @@ export const MY_DATA: FileItem[] = [
                     {
                         id: "h1-v", title: "Video", type: "folder",
                         children: [
-                            // Ensure this matches your actual video file exactly
                             { id: "h1-v1", title: "Video-1.mp4", type: "video", url: "/Ingenium%206.0/Video-1.mp4" }
                         ]
                     },
@@ -38,15 +33,12 @@ export const MY_DATA: FileItem[] = [
                     { id: "h1-g", title: "GitHub Repo Link", type: "link", url: "https://github.com/your-username/your-repo-name" }
                 ]
             },
-
-            // 2. INGENIUM 7.0
             {
                 id: "h3", title: "Ingenium 7.0", type: "folder", description: "Secured Top 20 rank.",
                 children: [
                     {
                         id: "h3-p", title: "Photo", type: "folder",
                         children: [
-                            // Notice the lowercase "ingenium 7.0" and "image1.png"
                             { id: "h3-p1", title: "Image 1", type: "file", url: "/ingenium%207.0/image1.png" },
                             { id: "h3-p2", title: "Image 2", type: "file", url: "/ingenium%207.0/image2.png" },
                             { id: "h3-p3", title: "Image 3", type: "file", url: "/ingenium%207.0/image3.png" }
@@ -62,8 +54,6 @@ export const MY_DATA: FileItem[] = [
                     { id: "h3-g", title: "GitHub Repo Link", type: "link", url: "https://github.com/your-username/your-repo-name" }
                 ]
             },
-
-            // 3. LJ HACKATHON
             {
                 id: "h2", title: "LJ Hackathon", type: "folder", description: "Secured Top 10 rank.",
                 children: [
@@ -85,8 +75,6 @@ export const MY_DATA: FileItem[] = [
                     { id: "h2-g", title: "GitHub Repo Link", type: "link", url: "https://github.com/your-username/your-repo-name" }
                 ]
             },
-
-            // 4. GLS HACKATHON
             {
                 id: "h4", title: "GLS Hackathon", type: "folder", description: "Secured 1st Rank! Built a fully autonomous AI Agent.",
                 children: [
@@ -125,7 +113,18 @@ export const MY_DATA: FileItem[] = [
         id: "certificates", title: "Certificates", type: "folder",
         description: "Official documentation of my achievements.",
         children: [
-            { id: "c1", title: "Hackathon 6.0", type: "pdf" }, { id: "c2", title: "Hackathon 7.0", type: "pdf" }, { id: "c3", title: "IEEE Tech Trek Relay 2025", type: "pdf" }, { id: "c4", title: "IEEE Cyber Security Workshop", type: "pdf" }, { id: "c5", title: "STAPTHON English Certification", type: "pdf" }, { id: "c6", title: "LJ Hackathon", type: "pdf" }, { id: "c7", title: "GLS 1st Rank", type: "pdf" }, { id: "c8", title: "Robotics Tech Head", type: "pdf" }, { id: "c9", title: "Arduino UNO 2.0 Workshop", type: "pdf" }
+            // 🟢 The 5 Certificates you have ready right now (with URLs linking to the public folder)
+            { id: "c1", title: "Hackathon 6.0", type: "pdf", url: "/Certificates/hackathon6.pdf" },
+            { id: "c4", title: "IEEE Cyber Security Workshop", type: "pdf", url: "/Certificates/cybersecurity.pdf" },
+            { id: "c5", title: "STAPTHON English Certification", type: "pdf", url: "/Certificates/stapthon.pdf" },
+            { id: "c6", title: "LJ Hackathon", type: "pdf", url: "/Certificates/ljhackathon.pdf" },
+            { id: "c9", title: "Arduino UNO 2.0 Workshop", type: "pdf", url: "/Certificates/arduino.pdf" },
+
+            // ⏳ The 4 Certificates you will add later (Currently missing the 'url' property)
+            { id: "c2", title: "Hackathon 7.0", type: "pdf" },
+            { id: "c3", title: "IEEE Tech Trek Relay 2025", type: "pdf" },
+            { id: "c7", title: "GLS 1st Rank", type: "pdf" },
+            { id: "c8", title: "Robotics Tech Head", type: "pdf" }
         ]
     },
     {
