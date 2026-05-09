@@ -50,7 +50,7 @@ export const MY_DATA: FileItem[] = [
                             { id: "h3-v1", title: "Video1.mp4", type: "video", url: "/ingenium%207.0/Video1.mp4" }
                         ]
                     },
-                    { id: "h3-d", title: "Project Demo Video", type: "video", url: "https://youtube.com/your-video-link-here" },
+                    { id: "h3-d", title: "Project Demo Video", type: "video", url: "/Ingenium%207.0/Project Demo Video.mp4" },
                     { id: "h3-g", title: "GitHub Repo Link", type: "link", url: "https://github.com/your-username/your-repo-name" }
                 ]
             },
