@@ -29,7 +29,7 @@ export const MY_DATA: FileItem[] = [
                             { id: "h1-v1", title: "Video-1.mp4", type: "video", url: "/Ingenium%206.0/Video-1.mp4" }
                         ]
                     },
-                    { id: "h1-d", title: "Project Demo Video", type: "video", url: "https://youtube.com/your-video-link-here" },
+                    { id: "h1-d", title: "Project Demo Video", type: "video", url: "/Ingenium%206.0/Project Demo Video.mp4" },
                     { id: "h1-g", title: "GitHub Repo Link", type: "link", url: "https://github.com/your-username/your-repo-name" }
                 ]
             },
