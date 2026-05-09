@@ -29,7 +29,8 @@ export const MY_DATA: FileItem[] = [
                             { id: "h1-v1", title: "Video-1.mp4", type: "video", url: "/Ingenium%206.0/Video-1.mp4" }
                         ]
                     },
-                    { id: "h1-d", title: "Project Demo Video", type: "video", url: "/ingenium%207.0/Project%20Demo%20Video.mp4" },
+                    // FIXED: Replaced spaces with %20 and pointed to correct Ingenium 6.0 folder
+                    { id: "h1-d", title: "Project Demo Video", type: "video", url: "/Ingenium%206.0/Project%20Demo%20Video.mp4" },
                     { id: "h1-g", title: "GitHub Repo Link", type: "link", url: "https://github.com/your-username/your-repo-name" }
                 ]
             },
@@ -50,7 +51,8 @@ export const MY_DATA: FileItem[] = [
                             { id: "h3-v1", title: "Video1.mp4", type: "video", url: "/ingenium%207.0/Video1.mp4" }
                         ]
                     },
-                    { id: "h3-d", title: "Project Demo Video", type: "video", url: "/Ingenium%207.0/Project Demo Video.mp4" },
+                    // FIXED: Lowercase "i", replaced spaces with %20
+                    { id: "h3-d", title: "Project Demo Video", type: "video", url: "/ingenium%207.0/Project%20Demo%20Video.mp4" },
                     { id: "h3-g", title: "GitHub Repo Link", type: "link", url: "https://github.com/your-username/your-repo-name" }
                 ]
             },
@@ -113,15 +115,12 @@ export const MY_DATA: FileItem[] = [
         id: "certificates", title: "Certificates", type: "folder",
         description: "Official documentation of my achievements.",
         children: [
-            // 🟢 The 5 Certificates you have ready right now (with URLs linking to the public folder)
             { id: "c1", title: "Hackathon 6.0", type: "pdf", url: "/Certificates/hackathon6.pdf" },
             { id: "c4", title: "IEEE Cyber Security Workshop", type: "pdf", url: "/Certificates/cybersecurity.pdf" },
             { id: "c5", title: "STAPTHON English Certification", type: "pdf", url: "/Certificates/stapthon.pdf" },
             { id: "c6", title: "LJ Hackathon", type: "pdf", url: "/Certificates/ljhackathon.pdf" },
             { id: "c9", title: "Arduino UNO 2.0 Workshop", type: "pdf", url: "/Certificates/arduino.pdf" },
             { id: "c3", title: "IEEE Tech Trek Relay 2025", type: "pdf", url: "/Certificates/IEEETechTrekRelay.pdf" },
-
-            // ⏳ The 4 Certificates you will add later (Currently missing the 'url' property)
             { id: "c2", title: "Hackathon 7.0", type: "pdf" },
             { id: "c7", title: "GLS 1st Rank", type: "pdf" },
             { id: "c8", title: "Robotics Tech Head", type: "pdf" }
