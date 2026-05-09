@@ -119,10 +119,10 @@ export const MY_DATA: FileItem[] = [
             { id: "c5", title: "STAPTHON English Certification", type: "pdf", url: "/Certificates/stapthon.pdf" },
             { id: "c6", title: "LJ Hackathon", type: "pdf", url: "/Certificates/ljhackathon.pdf" },
             { id: "c9", title: "Arduino UNO 2.0 Workshop", type: "pdf", url: "/Certificates/arduino.pdf" },
+            { id: "c3", title: "IEEE Tech Trek Relay 2025", type: "pdf", url: "/Certificates/IEEETechTrekRelay.pdf" },
 
             // ⏳ The 4 Certificates you will add later (Currently missing the 'url' property)
             { id: "c2", title: "Hackathon 7.0", type: "pdf" },
-            { id: "c3", title: "IEEE Tech Trek Relay 2025", type: "pdf" },
             { id: "c7", title: "GLS 1st Rank", type: "pdf" },
             { id: "c8", title: "Robotics Tech Head", type: "pdf" }
         ]
