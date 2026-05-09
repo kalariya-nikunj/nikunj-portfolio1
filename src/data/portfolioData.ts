@@ -143,7 +143,30 @@ export const MY_DATA: FileItem[] = [
     {
         id: "event-organize", title: "Event Organize", type: "folder",
         children: [
-            { id: "eo1", title: "Arduino UNO 3.0 Workshop", type: "folder", description: "Organized by me at Ahmedabad University.", children: [{ id: "eo1-p", title: "Photos", type: "folder", children: [] }, { id: "eo1-v", title: "Videos", type: "folder", children: [] }, { id: "eo1-d", title: "Description", type: "text" }] }
+            {
+                id: "eo1", title: "Arduino UNO 3.0 Workshop", type: "folder", description: "Organized by me at Ahmedabad University.",
+                children: [
+                    {
+                        id: "eo1-p", title: "Photos", type: "folder",
+                        children: [
+                            // Added your 5 images pointing to the 'Event Organize' folder
+                            { id: "eo1-p1", title: "Image 1", type: "file", url: "/Event%20Organize/image1.png" },
+                            { id: "eo1-p2", title: "Image 2", type: "file", url: "/Event%20Organize/image2.png" },
+                            { id: "eo1-p3", title: "Image 3", type: "file", url: "/Event%20Organize/image3.png" },
+                            { id: "eo1-p4", title: "Image 4", type: "file", url: "/Event%20Organize/image4.png" },
+                            { id: "eo1-p5", title: "Image 5", type: "file", url: "/Event%20Organize/image5.png" }
+                        ]
+                    },
+                    {
+                        id: "eo1-v", title: "Videos", type: "folder",
+                        children: [
+                            // Added your 1 video pointing to the 'Event Organize' folder
+                            { id: "eo1-v1", title: "Video 1", type: "video", url: "/Event%20Organize/Video1.mp4" }
+                        ]
+                    },
+                    { id: "eo1-d", title: "Description", type: "text" }
+                ]
+            }
         ]
     },
     { id: "resume", title: "Resume.pdf", type: "pdf", url: "/Resume.pdf" }
