@@ -164,7 +164,6 @@ export const MY_DATA: FileItem[] = [
                             { id: "eo1-v1", title: "Video 1", type: "video", url: "/Event%20Organize/Video1.mp4" }
                         ]
                     },
-                    { id: "eo1-d", title: "Description", type: "text" }
                 ]
             }
         ]
