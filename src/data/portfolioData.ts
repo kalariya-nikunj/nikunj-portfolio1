@@ -148,7 +148,8 @@ export const MY_DATA: FileItem[] = [
                             { id: "e2-p6", title: "Image 6", type: "file", url: "/Events/IEEE%20Event/image6.png" },
                             { id: "e2-p7", title: "Image 7", type: "file", url: "/Events/IEEE%20Event/image7.png" },
                             { id: "e2-p8", title: "Image 8", type: "file", url: "/Events/IEEE%20Event/image8.png" },
-                            { id: "e2-p9", title: "Image 9", type: "file", url: "/Events/IEEE%20Event/image9.png" }
+                            { id: "e2-p9", title: "Image 9", type: "file", url: "/Events/IEEE%20Event/image9.png" },
+                            { id: "e2-p10", title: "Image 10", type: "file", url: "/Events/IEEE%20Event/image10.png" },
                         ]
                     },
                     {
