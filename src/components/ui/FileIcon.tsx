@@ -10,4 +10,4 @@ const FileIcon = ({ type }: { type: string }) => {
     }
 };
 
-export default FileIcon;
+export default FileIcon
