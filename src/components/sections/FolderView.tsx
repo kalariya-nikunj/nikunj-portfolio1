@@ -13,6 +13,38 @@ interface FolderViewProps {
 const FolderView = ({ path, goBack, onNavigate }: FolderViewProps) => {
     const currentFolder = path[path.length - 1];
 
+    // 🌟 MAGIC THUMBNAIL ENGINE 🌟
+    const renderMediaOrIcon = (item: FileItem) => {
+        const isLocalImage = item.url && (item.url.toLowerCase().endsWith('.png') || item.url.toLowerCase().endsWith('.jpg') || item.url.toLowerCase().endsWith('.jpeg'));
+        const isLocalVideo = item.type === 'video' && item.url && !item.url.startsWith('http');
+
+        if (isLocalImage) {
+            return (
+                <div className="w-20 h-20 md:w-24 md:h-24 rounded-xl overflow-hidden shadow-[0_10px_15px_rgba(0,0,0,0.5)] border border-white/20">
+                    <img src={item.url} alt={item.title} className="w-full h-full object-cover" />
+                </div>
+            );
+        }
+
+        if (isLocalVideo) {
+            return (
+                <div className="w-20 h-20 md:w-24 md:h-24 rounded-xl overflow-hidden shadow-[0_10px_15px_rgba(0,0,0,0.5)] border border-white/20 relative bg-black">
+                    {/* Auto-playing muted video preview */}
+                    <video src={item.url} className="w-full h-full object-cover opacity-80" autoPlay muted loop playsInline />
+                    {/* Glassmorphism Play Button Overlay */}
+                    <div className="absolute inset-0 flex items-center justify-center">
+                        <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center backdrop-blur-md border border-white/40">
+                            <div className="w-0 h-0 border-t-[5px] border-t-transparent border-l-[8px] border-l-white border-b-[5px] border-b-transparent ml-1"></div>
+                        </div>
+                    </div>
+                </div>
+            );
+        }
+
+        // TS Bypass to prevent "title does not exist" errors
+        return <FileIcon type={item.type} {...({ title: item.title } as any)} />;
+    };
+
     return (
         <main className="min-h-screen bg-[#020202] text-white p-6 md:p-12 font-sans relative overflow-hidden">
             <ParticleBackground />
@@ -46,7 +78,8 @@ const FolderView = ({ path, goBack, onNavigate }: FolderViewProps) => {
                     currentFolder.children.map((item: FileItem) => (
                         <div key={item.id} onClick={() => onNavigate(item)} className="group cursor-pointer bg-white/5 border border-white/10 hover:border-white/30 hover:bg-white/10 p-8 rounded-2xl flex flex-col items-center justify-center transition-all duration-300 hover:-translate-y-2 shadow-lg backdrop-blur-sm">
                             <div className="mb-6 transform group-hover:scale-110 transition-transform duration-300">
-                                <FileIcon type={item.type} />
+                                {/* 🔥 WE INJECTED THE THUMBNAIL ENGINE HERE 🔥 */}
+                                {renderMediaOrIcon(item)}
                             </div>
                             <span className="font-bold text-center text-xs md:text-sm text-white/80 group-hover:text-white tracking-wider line-clamp-2">
                                 {item.title}
