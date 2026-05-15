@@ -247,18 +247,13 @@ export const MY_DATA: FileItem[] = [
                             { id: "p3-p2", title: "Image 2", type: "file", url: "/Projects/ENR105%20-%20Bird%20House/image2.png" },
                             { id: "p3-p3", title: "Image 3", type: "file", url: "/Projects/ENR105%20-%20Bird%20House/image3.png" },
                             { id: "p3-p4", title: "Image 4", type: "file", url: "/Projects/ENR105%20-%20Bird%20House/image4.png" },
-                            { id: "p3-p5", title: "Image 5", type: "file", url: "/Projects/ENR105%20-%20Bird%20House/image5.png" },
-                            { id: "p3-p6", title: "Image 6", type: "file", url: "/Projects/ENR105%20-%20Bird%20House/image6.png" },
-                            { id: "p3-p7", title: "Image 7", type: "file", url: "/Projects/ENR105%20-%20Bird%20House/image7.png" },
-                            { id: "p3-p8", title: "Image 8", type: "file", url: "/Projects/ENR105%20-%20Bird%20House/image8.png" },
-                            { id: "p3-p9", title: "Image 9", type: "file", url: "/Projects/ENR105%20-%20Bird%20House/image9.png" }
+                            { id: "p3-p5", title: "Image 5", type: "file", url: "/Projects/ENR105%20-%20Bird%20House/image5.png" }
                         ]
                     },
                     {
                         id: "p3-v", title: "Videos", type: "folder",
                         children: [
-                            { id: "p3-v1", title: "Video 1", type: "video", url: "/Projects/ENR105%20-%20Bird%20House/Video1.mp4" },
-                            { id: "p3-v2", title: "Video 2", type: "video", url: "/Projects/ENR105%20-%20Bird%20House/Video2.mp4" }
+                            { id: "p3-v1", title: "Video 1", type: "video", url: "/Projects/ENR105%20-%20Bird%20House/Video1.mp4" }
                         ]
                     }
                 ]
