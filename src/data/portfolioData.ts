@@ -191,21 +191,25 @@ export const MY_DATA: FileItem[] = [
                     {
                         id: "p1-p", title: "Photos", type: "folder",
                         children: [
-                            { id: "p1-p1", title: "Image 1", type: "file", url: "/Projects/ENR107%20-%20Gyro%20+%20Voice%20Control%20Car/image1.png" },
-                            { id: "p1-p2", title: "Image 2", type: "file", url: "/Projects/ENR107%20-%20Gyro%20+%20Voice%20Control%20Car/image2.png" },
-                            { id: "p1-p3", title: "Image 3", type: "file", url: "/Projects/ENR107%20-%20Gyro%20+%20Voice%20Control%20Car/image3.png" },
-                            { id: "p1-p4", title: "Image 4", type: "file", url: "/Projects/ENR107%20-%20Gyro%20+%20Voice%20Control%20Car/image4.png" },
-                            { id: "p1-p5", title: "Image 5", type: "file", url: "/Projects/ENR107%20-%20Gyro%20+%20Voice%20Control%20Car/image5.png" }
+                            { id: "p1-p1", title: "Image 1", type: "file", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/image1.png" },
+                            { id: "p1-p2", title: "Image 2", type: "file", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/image2.png" },
+                            { id: "p1-p3", title: "Image 3", type: "file", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/image3.png" },
+                            { id: "p1-p4", title: "Image 4", type: "file", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/image4.png" },
+                            { id: "p1-p5", title: "Image 5", type: "file", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/image5.png" },
+                            { id: "p1-p6", title: "Image 6", type: "file", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/image6.png" },
+                            { id: "p1-p7", title: "Image 7", type: "file", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/image7.png" },
+                            { id: "p1-p8", title: "Image 8", type: "file", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/image8.png" },
+                            { id: "p1-p9", title: "Image 9", type: "file", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/image9.png" }
                         ]
                     },
                     {
                         id: "p1-v", title: "Videos", type: "folder",
                         children: [
-                            { id: "p1-v1", title: "Video 1", type: "video", url: "/Projects/ENR107%20-%20Gyro%20+%20Voice%20Control%20Car/Video1.mp4" },
-                            { id: "p1-v2", title: "Video 2", type: "video", url: "/Projects/ENR107%20-%20Gyro%20+%20Voice%20Control%20Car/Video2.mp4" },
-                            { id: "p1-v3", title: "Video 3", type: "video", url: "/Projects/ENR107%20-%20Gyro%20+%20Voice%20Control%20Car/Video3.mp4" },
-                            { id: "p1-v4", title: "Video 4", type: "video", url: "/Projects/ENR107%20-%20Gyro%20+%20Voice%20Control%20Car/Video4.mp4" },
-                            { id: "p1-v5", title: "Video 5", type: "video", url: "/Projects/ENR107%20-%20Gyro%20+%20Voice%20Control%20Car/Video5.mp4" },
+                            { id: "p1-v1", title: "Video 1", type: "video", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/Video1.mp4" },
+                            { id: "p1-v2", title: "Video 2", type: "video", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/Video2.mp4" },
+                            { id: "p1-v3", title: "Video 3", type: "video", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/Video3.mp4" },
+                            { id: "p1-v4", title: "Video 4", type: "video", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/Video4.mp4" },
+                            { id: "p1-v5", title: "Video 5", type: "video", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/Video5.mp4" },
                         ]
                     }
                 ]
@@ -294,22 +298,22 @@ export const MY_DATA: FileItem[] = [
                     {
                         id: "p5-p", title: "Photos", type: "folder",
                         children: [
-                            { id: "p5-p1", title: "Image 1", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/image1.png" },
-                            { id: "p5-p2", title: "Image 2", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/image2.png" },
-                            { id: "p5-p3", title: "Image 3", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/image3.png" },
-                            { id: "p5-p4", title: "Image 4", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/image4.png" },
-                            { id: "p5-p5", title: "Image 5", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/image5.png" },
-                            { id: "p5-p6", title: "Image 6", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/image6.png" },
-                            { id: "p5-p7", title: "Image 7", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/image7.png" },
-                            { id: "p5-p8", title: "Image 8", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/image8.png" },
-                            { id: "p5-p9", title: "Image 9", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/image9.png" }
+                            { id: "p5-p1", title: "Image 1", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/image1.png" },
+                            { id: "p5-p2", title: "Image 2", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/image2.png" },
+                            { id: "p5-p3", title: "Image 3", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/image3.png" },
+                            { id: "p5-p4", title: "Image 4", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/image4.png" },
+                            { id: "p5-p5", title: "Image 5", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/image5.png" },
+                            { id: "p5-p6", title: "Image 6", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/image6.png" },
+                            { id: "p5-p7", title: "Image 7", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/image7.png" },
+                            { id: "p5-p8", title: "Image 8", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/image8.png" },
+                            { id: "p5-p9", title: "Image 9", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/image9.png" }
                         ]
                     },
                     {
                         id: "p5-v", title: "Videos", type: "folder",
                         children: [
-                            { id: "p5-v1", title: "Video 1", type: "video", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/Video1.mp4" },
-                            { id: "p5-v2", title: "Video 2", type: "video", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/Video2.mp4" }
+                            { id: "p5-v1", title: "Video 1", type: "video", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/Video1.mp4" },
+                            { id: "p5-v2", title: "Video 2", type: "video", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/Video2.mp4" }
                         ]
                     }
                 ]
@@ -346,22 +350,22 @@ export const MY_DATA: FileItem[] = [
                     {
                         id: "p7-p", title: "Photos", type: "folder",
                         children: [
-                            { id: "p7-p1", title: "Image 1", type: "file", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/image1.png" },
-                            { id: "p7-p2", title: "Image 2", type: "file", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/image2.png" },
-                            { id: "p7-p3", title: "Image 3", type: "file", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/image3.png" },
-                            { id: "p7-p4", title: "Image 4", type: "file", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/image4.png" },
-                            { id: "p7-p5", title: "Image 5", type: "file", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/image5.png" },
-                            { id: "p7-p6", title: "Image 6", type: "file", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/image6.png" },
-                            { id: "p7-p7", title: "Image 7", type: "file", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/image7.png" },
-                            { id: "p7-p8", title: "Image 8", type: "file", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/image8.png" },
-                            { id: "p7-p9", title: "Image 9", type: "file", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/image9.png" }
+                            { id: "p7-p1", title: "Image 1", type: "file", url: "/Projects/ENR215%20-%20Foldable%20%26%20Portable%20Bridge/image1.png" },
+                            { id: "p7-p2", title: "Image 2", type: "file", url: "/Projects/ENR215%20-%20Foldable%20%26%20Portable%20Bridge/image2.png" },
+                            { id: "p7-p3", title: "Image 3", type: "file", url: "/Projects/ENR215%20-%20Foldable%20%26%20Portable%20Bridge/image3.png" },
+                            { id: "p7-p4", title: "Image 4", type: "file", url: "/Projects/ENR215%20-%20Foldable%20%26%20Portable%20Bridge/image4.png" },
+                            { id: "p7-p5", title: "Image 5", type: "file", url: "/Projects/ENR215%20-%20Foldable%20%26%20Portable%20Bridge/image5.png" },
+                            { id: "p7-p6", title: "Image 6", type: "file", url: "/Projects/ENR215%20-%20Foldable%20%26%20Portable%20Bridge/image6.png" },
+                            { id: "p7-p7", title: "Image 7", type: "file", url: "/Projects/ENR215%20-%20Foldable%20%26%20Portable%20Bridge/image7.png" },
+                            { id: "p7-p8", title: "Image 8", type: "file", url: "/Projects/ENR215%20-%20Foldable%20%26%20Portable%20Bridge/image8.png" },
+                            { id: "p7-p9", title: "Image 9", type: "file", url: "/Projects/ENR215%20-%20Foldable%20%26%20Portable%20Bridge/image9.png" }
                         ]
                     },
                     {
                         id: "p7-v", title: "Videos", type: "folder",
                         children: [
-                            { id: "p7-v1", title: "Video 1", type: "video", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/Video1.mp4" },
-                            { id: "p7-v2", title: "Video 2", type: "video", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/Video2.mp4" }
+                            { id: "p7-v1", title: "Video 1", type: "video", url: "/Projects/ENR215%20-%20Foldable%20%26%20Portable%20Bridge/Video1.mp4" },
+                            { id: "p7-v2", title: "Video 2", type: "video", url: "/Projects/ENR215%20-%20Foldable%20%26%20Portable%20Bridge/Video2.mp4" }
                         ]
                     }
                 ]
