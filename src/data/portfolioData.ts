@@ -286,18 +286,13 @@ export const MY_DATA: FileItem[] = [
                             { id: "p5-p2", title: "Image 2", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/image2.png" },
                             { id: "p5-p3", title: "Image 3", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/image3.png" },
                             { id: "p5-p4", title: "Image 4", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/image4.png" },
-                            { id: "p5-p5", title: "Image 5", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/image5.png" },
-                            { id: "p5-p6", title: "Image 6", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/image6.png" },
-                            { id: "p5-p7", title: "Image 7", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/image7.png" },
-                            { id: "p5-p8", title: "Image 8", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/image8.png" },
-                            { id: "p5-p9", title: "Image 9", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/image9.png" }
+                            { id: "p5-p5", title: "Image 5", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/image5.png" }
                         ]
                     },
                     {
                         id: "p5-v", title: "Videos", type: "folder",
                         children: [
-                            { id: "p5-v1", title: "Video 1", type: "video", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/Video1.mp4" },
-                            { id: "p5-v2", title: "Video 2", type: "video", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/Video2.mp4" }
+                            { id: "p5-v1", title: "Video 1", type: "video", url: "/Projects/ENR213%20-%2016-bit%20ALU%20%26%20Audio%20Filters/Video1.mp4" }
                         ]
                     }
                 ]
