@@ -195,11 +195,7 @@ export const MY_DATA: FileItem[] = [
                             { id: "p1-p2", title: "Image 2", type: "file", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/image2.png" },
                             { id: "p1-p3", title: "Image 3", type: "file", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/image3.png" },
                             { id: "p1-p4", title: "Image 4", type: "file", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/image4.png" },
-                            { id: "p1-p5", title: "Image 5", type: "file", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/image5.png" },
-                            { id: "p1-p6", title: "Image 6", type: "file", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/image6.png" },
-                            { id: "p1-p7", title: "Image 7", type: "file", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/image7.png" },
-                            { id: "p1-p8", title: "Image 8", type: "file", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/image8.png" },
-                            { id: "p1-p9", title: "Image 9", type: "file", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/image9.png" }
+                            { id: "p1-p5", title: "Image 5", type: "file", url: "/Projects/ENR107%20-%20Gyro%20%2B%20Voice%20Control%20Car/image5.png" }
                         ]
                     },
                     {
@@ -226,16 +222,17 @@ export const MY_DATA: FileItem[] = [
                             { id: "p2-p4", title: "Image 4", type: "file", url: "/Projects/Water%20FDP%20-%20Website%20Development/image4.png" },
                             { id: "p2-p5", title: "Image 5", type: "file", url: "/Projects/Water%20FDP%20-%20Website%20Development/image5.png" },
                             { id: "p2-p6", title: "Image 6", type: "file", url: "/Projects/Water%20FDP%20-%20Website%20Development/image6.png" },
-                            { id: "p2-p7", title: "Image 7", type: "file", url: "/Projects/Water%20FDP%20-%20Website%20Development/image7.png" },
-                            { id: "p2-p8", title: "Image 8", type: "file", url: "/Projects/Water%20FDP%20-%20Website%20Development/image8.png" },
-                            { id: "p2-p9", title: "Image 9", type: "file", url: "/Projects/Water%20FDP%20-%20Website%20Development/image9.png" }
+                            { id: "p2-p7", title: "Image 7", type: "file", url: "/Projects/Water%20FDP%20-%20Website%20Development/image7.png" }
                         ]
                     },
                     {
                         id: "p2-v", title: "Videos", type: "folder",
                         children: [
                             { id: "p2-v1", title: "Video 1", type: "video", url: "/Projects/Water%20FDP%20-%20Website%20Development/Video1.mp4" },
-                            { id: "p2-v2", title: "Video 2", type: "video", url: "/Projects/Water%20FDP%20-%20Website%20Development/Video2.mp4" }
+                            { id: "p2-v2", title: "Video 2", type: "video", url: "/Projects/Water%20FDP%20-%20Website%20Development/Video2.mp4" },
+                            { id: "p2-v3", title: "Video 3", type: "video", url: "/Projects/Water%20FDP%20-%20Website%20Development/Video3.mp4" },
+                            { id: "p2-v4", title: "Video 4", type: "video", url: "/Projects/Water%20FDP%20-%20Website%20Development/Video4.mp4" },
+                            { id: "p2-v5", title: "Video 5", type: "video", url: "/Projects/Water%20FDP%20-%20Website%20Development/Video5.mp4" }
                         ]
                     }
                 ]
