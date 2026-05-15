@@ -265,21 +265,13 @@ export const MY_DATA: FileItem[] = [
                         id: "p4-p", title: "Photos", type: "folder",
                         children: [
                             { id: "p4-p1", title: "Image 1", type: "file", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/image1.png" },
-                            { id: "p4-p2", title: "Image 2", type: "file", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/image2.png" },
-                            { id: "p4-p3", title: "Image 3", type: "file", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/image3.png" },
-                            { id: "p4-p4", title: "Image 4", type: "file", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/image4.png" },
-                            { id: "p4-p5", title: "Image 5", type: "file", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/image5.png" },
-                            { id: "p4-p6", title: "Image 6", type: "file", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/image6.png" },
-                            { id: "p4-p7", title: "Image 7", type: "file", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/image7.png" },
-                            { id: "p4-p8", title: "Image 8", type: "file", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/image8.png" },
-                            { id: "p4-p9", title: "Image 9", type: "file", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/image9.png" }
+                            { id: "p4-p2", title: "Image 2", type: "file", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/image2.png" }
                         ]
                     },
                     {
                         id: "p4-v", title: "Videos", type: "folder",
                         children: [
-                            { id: "p4-v1", title: "Video 1", type: "video", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/Video1.mp4" },
-                            { id: "p4-v2", title: "Video 2", type: "video", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/Video2.mp4" }
+                            { id: "p4-v1", title: "Video 1", type: "video", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/Video1.mp4" }
                         ]
                     }
                 ]
