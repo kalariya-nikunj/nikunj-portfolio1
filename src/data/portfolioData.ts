@@ -185,13 +185,187 @@ export const MY_DATA: FileItem[] = [
         id: "projects", title: "Projects", type: "folder",
         description: "Academic and personal engineering projects spanning software and hardware.",
         children: [
-            { id: "p1", title: "ENR107: Gyro + Voice Control Car", type: "folder", children: [{ id: "p1-p", title: "Photos", type: "folder", children: [] }, { id: "p1-v", title: "Videos", type: "folder", children: [] }] },
-            { id: "p2", title: "Water FDP: Website Development", type: "folder", children: [{ id: "p2-p", title: "Photos", type: "folder", children: [] }, { id: "p2-v", title: "Videos", type: "folder", children: [] }] },
-            { id: "p3", title: "ENR105: Bird House", type: "folder", children: [{ id: "p3-p", title: "Photos", type: "folder", children: [] }, { id: "p3-v", title: "Videos", type: "folder", children: [] }] },
-            { id: "p4", title: "ENR206: Smart Smoke Detection", type: "folder", children: [{ id: "p4-p", title: "Photos", type: "folder", children: [] }, { id: "p4-v", title: "Videos", type: "folder", children: [] }] },
-            { id: "p5", title: "ENR213: 16-bit ALU & Audio Filters", type: "folder", children: [{ id: "p5-p", title: "Photos", type: "folder", children: [] }, { id: "p5-v", title: "Videos", type: "folder", children: [] }] },
-            { id: "p6", title: "CSE302: 32-bit RISC Microprocessor", type: "folder", children: [{ id: "p6-p", title: "Photos", type: "folder", children: [] }, { id: "p6-v", title: "Videos", type: "folder", children: [] }] },
-            { id: "p7", title: "ENR215: Foldable & Portable Bridge", type: "folder", children: [{ id: "p7-p", title: "Photos", type: "folder", children: [] }, { id: "p7-v", title: "Videos", type: "folder", children: [] }] }
+            {
+                id: "p1", title: "ENR107: Gyro + Voice Control Car", type: "folder",
+                children: [
+                    {
+                        id: "p1-p", title: "Photos", type: "folder",
+                        children: [
+                            { id: "p1-p1", title: "Image 1", type: "file", url: "/Projects/ENR107%20-%20Gyro%20+%20Voice%20Control%20Car/image1.png" },
+                            { id: "p1-p2", title: "Image 2", type: "file", url: "/Projects/ENR107%20-%20Gyro%20+%20Voice%20Control%20Car/image2.png" },
+                            { id: "p1-p3", title: "Image 3", type: "file", url: "/Projects/ENR107%20-%20Gyro%20+%20Voice%20Control%20Car/image3.png" },
+                            { id: "p1-p4", title: "Image 4", type: "file", url: "/Projects/ENR107%20-%20Gyro%20+%20Voice%20Control%20Car/image4.png" },
+                            { id: "p1-p5", title: "Image 5", type: "file", url: "/Projects/ENR107%20-%20Gyro%20+%20Voice%20Control%20Car/image5.png" }
+                        ]
+                    },
+                    {
+                        id: "p1-v", title: "Videos", type: "folder",
+                        children: [
+                            { id: "p1-v1", title: "Video 1", type: "video", url: "/Projects/ENR107%20-%20Gyro%20+%20Voice%20Control%20Car/Video1.mp4" },
+                            { id: "p1-v2", title: "Video 2", type: "video", url: "/Projects/ENR107%20-%20Gyro%20+%20Voice%20Control%20Car/Video2.mp4" },
+                            { id: "p1-v3", title: "Video 3", type: "video", url: "/Projects/ENR107%20-%20Gyro%20+%20Voice%20Control%20Car/Video3.mp4" },
+                            { id: "p1-v4", title: "Video 4", type: "video", url: "/Projects/ENR107%20-%20Gyro%20+%20Voice%20Control%20Car/Video4.mp4" },
+                            { id: "p1-v5", title: "Video 5", type: "video", url: "/Projects/ENR107%20-%20Gyro%20+%20Voice%20Control%20Car/Video5.mp4" },
+                        ]
+                    }
+                ]
+            },
+            {
+                id: "p2", title: "Water FDP: Website Development", type: "folder",
+                children: [
+                    {
+                        id: "p2-p", title: "Photos", type: "folder",
+                        children: [
+                            { id: "p2-p1", title: "Image 1", type: "file", url: "/Projects/Water%20FDP%20-%20Website%20Development/image1.png" },
+                            { id: "p2-p2", title: "Image 2", type: "file", url: "/Projects/Water%20FDP%20-%20Website%20Development/image2.png" },
+                            { id: "p2-p3", title: "Image 3", type: "file", url: "/Projects/Water%20FDP%20-%20Website%20Development/image3.png" },
+                            { id: "p2-p4", title: "Image 4", type: "file", url: "/Projects/Water%20FDP%20-%20Website%20Development/image4.png" },
+                            { id: "p2-p5", title: "Image 5", type: "file", url: "/Projects/Water%20FDP%20-%20Website%20Development/image5.png" },
+                            { id: "p2-p6", title: "Image 6", type: "file", url: "/Projects/Water%20FDP%20-%20Website%20Development/image6.png" },
+                            { id: "p2-p7", title: "Image 7", type: "file", url: "/Projects/Water%20FDP%20-%20Website%20Development/image7.png" },
+                            { id: "p2-p8", title: "Image 8", type: "file", url: "/Projects/Water%20FDP%20-%20Website%20Development/image8.png" },
+                            { id: "p2-p9", title: "Image 9", type: "file", url: "/Projects/Water%20FDP%20-%20Website%20Development/image9.png" }
+                        ]
+                    },
+                    {
+                        id: "p2-v", title: "Videos", type: "folder",
+                        children: [
+                            { id: "p2-v1", title: "Video 1", type: "video", url: "/Projects/Water%20FDP%20-%20Website%20Development/Video1.mp4" },
+                            { id: "p2-v2", title: "Video 2", type: "video", url: "/Projects/Water%20FDP%20-%20Website%20Development/Video2.mp4" }
+                        ]
+                    }
+                ]
+            },
+            {
+                id: "p3", title: "ENR105: Bird House", type: "folder",
+                children: [
+                    {
+                        id: "p3-p", title: "Photos", type: "folder",
+                        children: [
+                            { id: "p3-p1", title: "Image 1", type: "file", url: "/Projects/ENR105%20-%20Bird%20House/image1.png" },
+                            { id: "p3-p2", title: "Image 2", type: "file", url: "/Projects/ENR105%20-%20Bird%20House/image2.png" },
+                            { id: "p3-p3", title: "Image 3", type: "file", url: "/Projects/ENR105%20-%20Bird%20House/image3.png" },
+                            { id: "p3-p4", title: "Image 4", type: "file", url: "/Projects/ENR105%20-%20Bird%20House/image4.png" },
+                            { id: "p3-p5", title: "Image 5", type: "file", url: "/Projects/ENR105%20-%20Bird%20House/image5.png" },
+                            { id: "p3-p6", title: "Image 6", type: "file", url: "/Projects/ENR105%20-%20Bird%20House/image6.png" },
+                            { id: "p3-p7", title: "Image 7", type: "file", url: "/Projects/ENR105%20-%20Bird%20House/image7.png" },
+                            { id: "p3-p8", title: "Image 8", type: "file", url: "/Projects/ENR105%20-%20Bird%20House/image8.png" },
+                            { id: "p3-p9", title: "Image 9", type: "file", url: "/Projects/ENR105%20-%20Bird%20House/image9.png" }
+                        ]
+                    },
+                    {
+                        id: "p3-v", title: "Videos", type: "folder",
+                        children: [
+                            { id: "p3-v1", title: "Video 1", type: "video", url: "/Projects/ENR105%20-%20Bird%20House/Video1.mp4" },
+                            { id: "p3-v2", title: "Video 2", type: "video", url: "/Projects/ENR105%20-%20Bird%20House/Video2.mp4" }
+                        ]
+                    }
+                ]
+            },
+            {
+                id: "p4", title: "ENR206: Smart Smoke Detection", type: "folder",
+                children: [
+                    {
+                        id: "p4-p", title: "Photos", type: "folder",
+                        children: [
+                            { id: "p4-p1", title: "Image 1", type: "file", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/image1.png" },
+                            { id: "p4-p2", title: "Image 2", type: "file", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/image2.png" },
+                            { id: "p4-p3", title: "Image 3", type: "file", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/image3.png" },
+                            { id: "p4-p4", title: "Image 4", type: "file", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/image4.png" },
+                            { id: "p4-p5", title: "Image 5", type: "file", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/image5.png" },
+                            { id: "p4-p6", title: "Image 6", type: "file", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/image6.png" },
+                            { id: "p4-p7", title: "Image 7", type: "file", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/image7.png" },
+                            { id: "p4-p8", title: "Image 8", type: "file", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/image8.png" },
+                            { id: "p4-p9", title: "Image 9", type: "file", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/image9.png" }
+                        ]
+                    },
+                    {
+                        id: "p4-v", title: "Videos", type: "folder",
+                        children: [
+                            { id: "p4-v1", title: "Video 1", type: "video", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/Video1.mp4" },
+                            { id: "p4-v2", title: "Video 2", type: "video", url: "/Projects/ENR206%20-%20Smart%20Smoke%20Detection/Video2.mp4" }
+                        ]
+                    }
+                ]
+            },
+            {
+                id: "p5", title: "ENR213: 16-bit ALU & Audio Filters", type: "folder",
+                children: [
+                    {
+                        id: "p5-p", title: "Photos", type: "folder",
+                        children: [
+                            { id: "p5-p1", title: "Image 1", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/image1.png" },
+                            { id: "p5-p2", title: "Image 2", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/image2.png" },
+                            { id: "p5-p3", title: "Image 3", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/image3.png" },
+                            { id: "p5-p4", title: "Image 4", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/image4.png" },
+                            { id: "p5-p5", title: "Image 5", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/image5.png" },
+                            { id: "p5-p6", title: "Image 6", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/image6.png" },
+                            { id: "p5-p7", title: "Image 7", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/image7.png" },
+                            { id: "p5-p8", title: "Image 8", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/image8.png" },
+                            { id: "p5-p9", title: "Image 9", type: "file", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/image9.png" }
+                        ]
+                    },
+                    {
+                        id: "p5-v", title: "Videos", type: "folder",
+                        children: [
+                            { id: "p5-v1", title: "Video 1", type: "video", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/Video1.mp4" },
+                            { id: "p5-v2", title: "Video 2", type: "video", url: "/Projects/ENR213%20-%2016-bit%20ALU%20&%20Audio%20Filters/Video2.mp4" }
+                        ]
+                    }
+                ]
+            },
+            {
+                id: "p6", title: "CSE302: 32-bit RISC Microprocessor", type: "folder",
+                children: [
+                    {
+                        id: "p6-p", title: "Photos", type: "folder",
+                        children: [
+                            { id: "p6-p1", title: "Image 1", type: "file", url: "/Projects/CSE302%20-%2032-bit%20RISC%20Microprocessor/image1.png" },
+                            { id: "p6-p2", title: "Image 2", type: "file", url: "/Projects/CSE302%20-%2032-bit%20RISC%20Microprocessor/image2.png" },
+                            { id: "p6-p3", title: "Image 3", type: "file", url: "/Projects/CSE302%20-%2032-bit%20RISC%20Microprocessor/image3.png" },
+                            { id: "p6-p4", title: "Image 4", type: "file", url: "/Projects/CSE302%20-%2032-bit%20RISC%20Microprocessor/image4.png" },
+                            { id: "p6-p5", title: "Image 5", type: "file", url: "/Projects/CSE302%20-%2032-bit%20RISC%20Microprocessor/image5.png" },
+                            { id: "p6-p6", title: "Image 6", type: "file", url: "/Projects/CSE302%20-%2032-bit%20RISC%20Microprocessor/image6.png" },
+                            { id: "p6-p7", title: "Image 7", type: "file", url: "/Projects/CSE302%20-%2032-bit%20RISC%20Microprocessor/image7.png" },
+                            { id: "p6-p8", title: "Image 8", type: "file", url: "/Projects/CSE302%20-%2032-bit%20RISC%20Microprocessor/image8.png" },
+                            { id: "p6-p9", title: "Image 9", type: "file", url: "/Projects/CSE302%20-%2032-bit%20RISC%20Microprocessor/image9.png" }
+                        ]
+                    },
+                    {
+                        id: "p6-v", title: "Videos", type: "folder",
+                        children: [
+                            { id: "p6-v1", title: "Video 1", type: "video", url: "/Projects/CSE302%20-%2032-bit%20RISC%20Microprocessor/Video1.mp4" },
+                            { id: "p6-v2", title: "Video 2", type: "video", url: "/Projects/CSE302%20-%2032-bit%20RISC%20Microprocessor/Video2.mp4" }
+                        ]
+                    }
+                ]
+            },
+            {
+                id: "p7", title: "ENR215: Foldable & Portable Bridge", type: "folder",
+                children: [
+                    {
+                        id: "p7-p", title: "Photos", type: "folder",
+                        children: [
+                            { id: "p7-p1", title: "Image 1", type: "file", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/image1.png" },
+                            { id: "p7-p2", title: "Image 2", type: "file", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/image2.png" },
+                            { id: "p7-p3", title: "Image 3", type: "file", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/image3.png" },
+                            { id: "p7-p4", title: "Image 4", type: "file", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/image4.png" },
+                            { id: "p7-p5", title: "Image 5", type: "file", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/image5.png" },
+                            { id: "p7-p6", title: "Image 6", type: "file", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/image6.png" },
+                            { id: "p7-p7", title: "Image 7", type: "file", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/image7.png" },
+                            { id: "p7-p8", title: "Image 8", type: "file", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/image8.png" },
+                            { id: "p7-p9", title: "Image 9", type: "file", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/image9.png" }
+                        ]
+                    },
+                    {
+                        id: "p7-v", title: "Videos", type: "folder",
+                        children: [
+                            { id: "p7-v1", title: "Video 1", type: "video", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/Video1.mp4" },
+                            { id: "p7-v2", title: "Video 2", type: "video", url: "/Projects/ENR215%20-%20Foldable%20&%20Portable%20Bridge/Video2.mp4" }
+                        ]
+                    }
+                ]
+            }
         ]
     },
     {
