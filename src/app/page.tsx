@@ -32,14 +32,18 @@ export default function Home() {
                 <ParticleBackground />
 
                 {/* Navbar: Clean, Bold White Buttons on the Top-Right */}
-                <nav className="fixed top-0 w-full p-10 px-12 flex justify-between items-start z-50 bg-transparent">
+                {/* Adjusted padding (p-6 px-6) and alignment (items-center) for mobile screens */}
+                <nav className="fixed top-0 w-full p-6 md:p-10 px-6 md:px-12 flex justify-between items-center z-50 bg-transparent">
+
                     {/* Left Side: Logo Branding */}
-                    <div className="text-[#c084fc] font-bold tracking-[0.4em] text-sm md:text-lg drop-shadow-[0_0_10px_rgba(192,132,252,0.5)]">
+                    {/* Added whitespace-nowrap and mobile-specific sizing (text-[10px] tracking-[0.2em]) */}
+                    <div className="text-[#c084fc] font-bold tracking-[0.2em] md:tracking-[0.4em] text-[10px] md:text-lg whitespace-nowrap drop-shadow-[0_0_10px_rgba(192,132,252,0.5)]">
                         N . K . A . L . A . R . I . Y . A
                     </div>
 
                     {/* Right Side: Navigation buttons matching your screenshot */}
-                    <div className="flex gap-10 items-center text-white font-bold text-sm md:text-base tracking-wide">
+                    {/* Adjusted mobile gap to gap-4 so it fits cleanly with the logo */}
+                    <div className="flex gap-4 md:gap-10 items-center text-white font-bold text-xs md:text-base tracking-wide whitespace-nowrap">
                         <button onClick={() => scrollToSection('about')} className="hover:opacity-70 transition-opacity">About</button>
                         <button onClick={() => scrollToSection('workspace')} className="hover:opacity-70 transition-opacity">Workspace</button>
                     </div>
